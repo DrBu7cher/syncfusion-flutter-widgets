@@ -10,11 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  syncfusion_flutter_core:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_flutter_core
+  syncfusion_flutter_core: ">=24.2.0"
 
 dev_dependencies:
   flutter_test:

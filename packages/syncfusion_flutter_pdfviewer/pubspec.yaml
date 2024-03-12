@@ -40,48 +40,13 @@ dependencies:
   device_info_plus: ^9.0.2
   intl: ^0.18.0
 
-  syncfusion_pdfviewer_platform_interface:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_pdfviewer_platform_interface
-    
-  syncfusion_pdfviewer_web:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_pdfviewer_web
-    
-  syncfusion_pdfviewer_macos:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_pdfviewer_macos
-    
-  syncfusion_pdfviewer_windows:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_pdfviewer_windows
-   
-  syncfusion_flutter_core:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_flutter_core
-
-  syncfusion_flutter_pdf:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_flutter_pdf
-    
-  syncfusion_flutter_signaturepad:
-    git:
-      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
-      ref: 4f83d3a5d7c2f311156c3c56be9f8a4eacc5734f
-      path: packages/syncfusion_flutter_signaturepad
-    
+  syncfusion_pdfviewer_platform_interface: ">=24.2.0"
+  syncfusion_pdfviewer_web: ">=24.2.0"
+  syncfusion_pdfviewer_macos: ">=24.2.0"
+  syncfusion_pdfviewer_windows: ">=24.2.0"
+  syncfusion_flutter_core: ">=24.2.0"
+  syncfusion_flutter_pdf: ">=24.2.0"
+  syncfusion_flutter_signaturepad: ">=24.2.0"
   url_launcher: ^6.1.0
 
 dev_dependencies:
