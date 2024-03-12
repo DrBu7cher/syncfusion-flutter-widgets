@@ -10,15 +10,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   syncfusion_flutter_datagrid:
-      path: ../syncfusion_flutter_datagrid
-    
+    git:
+      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
+      ref: 012fca10356e88d28b68b53c423478265a2b7d8d
+      path: packages/syncfusion_flutter_datagrid
+
   syncfusion_flutter_xlsio:
-      path: ../syncfusion_flutter_xlsio
-  
+    git:
+      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
+      ref: 012fca10356e88d28b68b53c423478265a2b7d8d
+      path: packages/syncfusion_flutter_xlsio
+
   syncfusion_flutter_pdf:
-      path: ../syncfusion_flutter_pdf
+    git:
+      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
+      ref: 012fca10356e88d28b68b53c423478265a2b7d8d
+      path: packages/syncfusion_flutter_pdf
 
   collection: ">=1.9.0 <=2.0.0"
 

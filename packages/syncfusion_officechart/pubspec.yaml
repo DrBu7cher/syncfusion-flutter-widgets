@@ -12,7 +12,10 @@ dependencies:
   xml: ">=5.1.0 <7.0.0"
   archive: ">=3.1.2 <4.0.0"
   syncfusion_flutter_xlsio: 
-      path: ../syncfusion_flutter_xlsio
+    git:
+      url: https://github.com/jonasbadstuebner/syncfusion-flutter-widgets.git
+      ref: 012fca10356e88d28b68b53c423478265a2b7d8d
+      path: packages/syncfusion_flutter_xlsio
   
 dev_dependencies:
   flutter_test:
